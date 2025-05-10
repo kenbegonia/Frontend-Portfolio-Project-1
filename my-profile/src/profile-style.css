@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+.profile-text {
+    color: red;
+}
+
+.header-text {
+    padding: 1vmin 1vmin 1vmin 1vmin;
+    font-size: 2vmin;
+    text-align: center;
+    background-color: red;
+}
