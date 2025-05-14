@@ -1,0 +1,49 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.075rem;
+}
+
+body {
+    min-height: 900px;
+    background-color: #8feaf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    box-sizing: content-box;
+    min-width: 350px;
+    height: 70vh;
+    width: 40vw;
+    border-radius: 50px;
+    background-color: #f58fea;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.container button {
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 0 5px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.container input[type=text] {
+  border-radius: 20px;
+  border: 1px solid #eaf58f;
+  color: #eaf58f;
+  background-color: #f58fea;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.text {
+    color: #eaf58f;
+}
+
+
