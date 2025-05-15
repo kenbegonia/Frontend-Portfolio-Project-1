@@ -8,17 +8,26 @@
 body {
     min-height: 900px;
     background-color: #8feaf5;
+}
+
+.flex-container {
+    width: 90%;
+    height: 95vh;
+    margin: 5vmax auto;
+    background-color: #efefef;
+    box-shadow: 3px 5px 6px #888888;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .container {
     box-sizing: content-box;
     min-width: 350px;
-    height: 70vh;
-    width: 40vw;
-    border-radius: 50px;
+    height: 30%;
+    width: 80%;
     background-color: #f58fea;
     font-size: 20pt;
     text-align: center;
