@@ -10,10 +10,16 @@ body {
     background-color: #8feaf5;
 }
 
+.container-header {
+    font-size: xx-large;
+    padding: 3px;
+}
+
 .flex-container {
     width: 90%;
-    height: 95vh;
+    height: 115vh;
     margin: 5vmax auto;
+    padding-bottom: 10%;
     background-color: #efefef;
     box-shadow: 3px 5px 6px #888888;
     display: flex;
@@ -25,10 +31,10 @@ body {
 
 .container {
     box-sizing: content-box;
+    border: 1px solid black;
     min-width: 350px;
-    height: 30%;
+    height: 25%;
     width: 80%;
-    background-color: #f58fea;
     font-size: 20pt;
     text-align: center;
 }
@@ -52,7 +58,7 @@ body {
 }
 
 .text {
-    color: #eaf58f;
+    font-size: medium;
 }
 
 
