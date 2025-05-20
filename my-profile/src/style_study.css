@@ -32,33 +32,35 @@ body {
 .container {
     box-sizing: content-box;
     border: 1px solid black;
+    box-shadow: 2px 4px 6px #888888;
     min-width: 350px;
     height: 25%;
     width: 80%;
     font-size: 20pt;
     text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.container button {
-    border: 1px solid #ccc;
-    background: #eee;
-    padding: 0 5px;
-    margin-left: 10px;
-    border-radius: 2px;
+.container > img {
+    width: 50%;
+    height: 50%;
+    align-self: center;
+    margin: 5vh;
 }
 
-.container input[type=text] {
-  border-radius: 20px;
-  border: 1px solid #eaf58f;
-  color: #eaf58f;
-  background-color: #f58fea;
-  width: 250px;
-  height: 30px;
-  padding-left: 10px;
+.inner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .text {
     font-size: medium;
+    list-style-position: inside;
 }
 
 
