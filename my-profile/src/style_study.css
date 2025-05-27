@@ -10,20 +10,23 @@ body {
     background-color: #8feaf5;
 }
 
+.page-header {
+    background-color: #dedede;
+}
+
 .container-header {
-    font-size: xx-large;
+    font-size: 36pt;
     padding: 3px;
 }
 
 .flex-container {
     width: 90%;
-    height: 115vh;
+    height: 125vh;
     margin: 5vmax auto;
     padding-bottom: 10%;
     background-color: #efefef;
     box-shadow: 3px 5px 6px #888888;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
@@ -54,13 +57,24 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 2vw;
+    margin-left: 2vw;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
 
 .text {
-    font-size: medium;
+    font-size: 1vw;
     list-style-position: inside;
+    max-height: 90%;
+    align-content: center;
+}
+
+.text-justified {
+    text-align: justify;
+}
+
+.work-experience-entry {
+    font-size: max(1.2vw, 7pt);
 }
 
 
